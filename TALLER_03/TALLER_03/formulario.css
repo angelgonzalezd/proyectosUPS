@@ -1,0 +1,26 @@
+* {
+	font-family: verdana;
+}
+
+#phone {
+	color: red;
+}
+
+label {
+	width: 200px;
+	padding: 0 10px 0 10px;
+	text-align: right;
+}
+
+body .form-personal-information {
+	display: grid;
+	grid-template-rows: 1fr 3fr;
+}
+
+.form-personal-text {
+	grid-row: 1;
+}
+
+.form-personal {
+	grid-row: 2;
+}
